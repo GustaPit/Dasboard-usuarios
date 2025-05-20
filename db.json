@@ -1,0 +1,29 @@
+{
+ "peoples":[
+    {
+        "id":1,
+        "firstName": "João",
+        "lastName": "Silva",
+        "avatar": "https://i.pravatar.cc/150?img=1",
+        "addres": "Rua A,123",
+        "email": "joao@email.com"
+    },
+    {
+         "id":2,
+        "firstName": "Maria",
+        "lastName": "Souza",
+        "avatar": "https://i.pravatar.cc/150?img=2",
+        "addres": "Rua B,456",
+        "email": "maria@email.com"
+    },
+
+    {
+        "id":3,
+        "firstName": "Marcos",
+        "lastName": "Pedroso",
+        "avatar": "https://i.pravatar.cc/150?img=3",
+        "addres": "Rua B,700",
+        "email": "marcao@email.com"  
+    }
+ ]
+}
