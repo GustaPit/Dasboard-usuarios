@@ -10,7 +10,8 @@ const peoples = lodash.times(50,function(n){
         id: n+1,
         firstname: firstName,
         lastname: lastName,
-        avatar: faker.location.streetAddress(),
+        avatar: faker.image.avatar(),
+        address: faker.location.streetAddress(),
         email:faker.internet.email({firstName: firstName.toLowerCase(), lastName: lastName.toLowerCase()})
     }
 });
