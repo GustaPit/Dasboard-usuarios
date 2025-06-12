@@ -3,16 +3,16 @@ import lodash from 'lodash';
 import fs from 'fs';
 
 const peoples = lodash.times(50,function(n){
-    const firstName = faker.person.firstName();
+    const firstName = faker.person.firstname();
     const lastName = faker.person.lastName();
 
     return{
         id: n+1,
-        firstname: firstName,
-        lastname: lastName,
+       firstName:firstName(),
+        lastName: lastName(),
         avatar: faker.image.avatar(),
         address: faker.location.streetAddress(),
-        email:faker.internet.email({firstName: firstName.toLowerCase(), lastName: lastName.toLowerCase()})
+        email:faker.internet.email({firstname:firstName.toLowerCase(),lastName:lastName.toLowerCase()})
     }
 });
 
